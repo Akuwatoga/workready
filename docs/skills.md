@@ -4,6 +4,7 @@ Each skill is a scenario-specific workplace operator. The user can invoke it dir
 
 | Skill | Specialist role | Primary methods | Output |
 |---|---|---|---|
+| `/analyst-intake` | Analyst intake coach | Analyst intake, business/data map, manager alignment, memory | Scoped data-analysis task brief |
 | `/onboard` | Onboarding coach | First 90 Days, manager alignment, stakeholder mapping | First-week plan |
 | `/first90` | New-role strategist | First 90 Days, manager alignment, personal system | 30/60/90-day plan |
 | `/plan` | Work planner | Manager alignment, personal system | Execution plan |
@@ -35,9 +36,9 @@ Useful chains:
 
 | Situation | Chain |
 |---|---|
+| New analyst receives a vague request | `/analyst-intake -> /datamap -> /update -> /retro` |
 | First week in a new role | `/onboard -> /stakeholder -> /tasks -> /update -> /retro` |
 | Vague manager assignment | `/plan -> /message -> /tasks -> /update` |
 | Cross-functional project | `/stakeholder -> /raci -> /status -> /meeting` |
 | Data/process automation discovery | `/datamap -> /plan -> /status` |
 | Weekly operating rhythm | `/tasks -> /meeting -> /update -> /retro` |
-

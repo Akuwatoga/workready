@@ -2,6 +2,12 @@
 
 WorkReady is built from reusable workplace methods. Each slash command loads the method it needs and turns user notes into a concrete work artifact.
 
+## Analyst Intake
+
+Use this when a new data analyst receives a vague business, data, metric, dashboard, or reporting request. The user should leave with a scoped analysis brief, clarifying questions, metric/data-source risk map, kickoff plan, and confirmation message.
+
+See [methodologies/analyst-intake.md](../methodologies/analyst-intake.md).
+
 ## First 90 Days
 
 Use this when the user is new to a role, team, company, internship, or project. The core loop is:
@@ -56,3 +62,8 @@ Use this when the user needs to understand a workflow, data source, report, dash
 
 See [methodologies/business-data-map.md](../methodologies/business-data-map.md).
 
+## WorkReady Memory
+
+Use this when a skill should become more personalized over time by reading and updating local, inspectable memory files.
+
+See [docs/memory.md](memory.md).

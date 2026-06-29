@@ -1,8 +1,10 @@
 # WorkReady
 
-Scenario-driven AI skills for students, interns, new graduates, and new employees who need to become reliable workplace operators.
+Scenario-driven AI skills for new data analysts and workplace newcomers who need to become reliable operators.
 
-WorkReady turns common workplace situations into slash-command skills. Each skill combines a practical method with a concrete output, so the user does not just get advice. They get a plan, update, message, decision log, stakeholder map, RACI matrix, or operating system they can use at work.
+WorkReady starts with **WorkReady Analyst**: a focused wedge for new data analysts who need to turn vague business/data requests into clarified requirements, metric definitions, data-source checks, analysis plans, updates, and probation evidence.
+
+Long term, WorkReady turns common workplace situations into slash-command skills. Each skill combines a practical method with a concrete output, so the user does not just get advice. They get a plan, update, message, decision log, stakeholder map, RACI matrix, or operating system they can use at work.
 
 ## Positioning
 
@@ -12,12 +14,17 @@ WorkReady is a skill stack for the early workplace lifecycle:
 
 **Onboard -> Learn -> Align -> Plan -> Collaborate -> Report -> Operate -> Review**
 
+WorkReady Analyst is the first focused lifecycle:
+
+**Intake -> Clarify -> Map Data -> Analyze -> Update -> Review -> Evidence**
+
 ## Quick Start
 
 Use the root router in [WORKREADY.md](WORKREADY.md), or invoke a specific skill:
 
 | Command | Use when | Main artifact |
 |---|---|---|
+| `/analyst-intake` | A new analyst receives a vague data/business request | Intake brief, metric questions, data-source risks, confirmation message |
 | `/onboard` | You just joined a team or company | First-week map and onboarding plan |
 | `/first90` | You need a 30/60/90-day plan | First 90 days operating plan |
 | `/plan` | You received a vague assignment | Clarified work plan |
@@ -35,12 +42,19 @@ Use the root router in [WORKREADY.md](WORKREADY.md), or invoke a specific skill:
 
 WorkReady intentionally combines four proven workplace methods:
 
+- Analyst intake: clarify business question, metric definition, data source, deliverable, timeline, and risk before analysis starts.
 - First 90 Days: learn fast, align expectations, create early wins, and build credibility.
 - Manager Tools style new-job operating discipline: understand your manager, clarify success criteria, set a communication cadence, and ask better questions.
 - Atlassian-style collaboration tools: RACI, stakeholder mapping, and status reporting.
 - Obsidian Tasks + Dataview style personal operations: capture work as structured notes, tasks, projects, meetings, and reviews.
 
 The method files live in [methodologies/](methodologies/). Skills reference them directly so every command has a mature work pattern behind it.
+
+## Memory
+
+WorkReady memory is local and explicit. Chat history is not automatically permanent. Durable memory lives in files such as `memory/user-profile.md`, `memory/manager-preferences.md`, `memory/data-sources.md`, and `memory/lessons-learned.md`.
+
+See [docs/memory.md](docs/memory.md).
 
 ## Repository Structure
 
@@ -51,8 +65,10 @@ workready/
   WORKREADY.md
   commands/        # Short slash-command entrypoints
   skills/          # Agent-loadable SKILL.md files
+  role-packs/      # Role-specific skill packs
   methodologies/   # Reusable workplace methods
   templates/       # Markdown templates users can copy into notes
+  memory/          # Local durable memory and design docs
   docs/            # Usage and design notes
   examples/        # Example workflows
 ```
@@ -65,4 +81,3 @@ workready/
 - Clarify owners, deadlines, dependencies, and decision makers.
 - Prefer short, manager-readable outputs over long essays.
 - Turn work into a reusable personal operating system.
-
