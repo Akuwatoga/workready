@@ -1,43 +1,14 @@
 # /onboard
 
-Use this command when a student, intern, or new employee has just joined a company and needs to get oriented quickly.
+Load `skills/onboard/SKILL.md`.
 
-## Goal
+Use when the user has just joined a company, team, internship, rotation, or new project and needs a first-week operating plan.
 
-Create a first-week workplace map and action plan.
+Always apply:
 
-## Inputs
+- `methodologies/first-90-days.md`
+- `methodologies/manager-alignment.md`
+- `methodologies/stakeholder-mapping.md`
 
-- job title
-- job description
-- company or team context
-- manager expectations
-- people met so far
-- current tasks
-- unclear questions
+Main output: first-week map, learning agenda, people map, early wins, manager alignment message.
 
-## Output
-
-### Role map
-
-| Area | Current understanding | Evidence | Unknowns |
-|---|---|---|---|
-
-### First-week plan
-
-| Day | Focus | Actions | Deliverable |
-|---|---|---|---|
-
-### People map
-
-| Person or team | Role | What they care about | Follow-up action |
-|---|---|---|---|
-
-### Question backlog
-
-| Question | Who to ask | Why it matters | Priority |
-|---|---|---|---|
-
-### Manager message
-
-Draft a short message that confirms the user's understanding and next steps.

@@ -1,32 +1,13 @@
 # /update
 
-Use this command when the user needs to report work to a manager.
+Load `skills/update/SKILL.md`.
 
-## Goal
+Use when the user needs to report progress to a manager, mentor, team lead, or project group.
 
-Convert raw work notes into a concise, result-oriented update.
+Always apply:
 
-## Output
+- `methodologies/status-report.md`
+- `methodologies/manager-alignment.md`
 
-### Concise chat update
+Main output: concise chat update, structured manager update, decision/support request, next actions.
 
-Use this for Slack, Feishu, DingTalk, WeChat, or email.
-
-### Structured update
-
-1. Progress
-2. Findings
-3. Risks or blockers
-4. Support or decision needed
-5. Next actions
-
-### One-line executive summary
-
-One sentence that captures the most important point.
-
-## Style rules
-
-- Emphasize outcomes, not effort.
-- Mention concrete deliverables.
-- Make risks visible early.
-- Ask for decisions clearly.

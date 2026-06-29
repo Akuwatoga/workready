@@ -1,26 +1,12 @@
 # /stakeholder
 
-Use this command when the user needs to understand key people around a project, department, or new role.
+Load `skills/stakeholder/SKILL.md`.
 
-## Goal
+Use when the user needs to understand key people around a project, role, team, decision, or cross-functional initiative.
 
-Create a stakeholder map and communication plan.
+Always apply:
 
-## Output
+- `methodologies/stakeholder-mapping.md`
 
-### Stakeholder table
+Main output: stakeholder table, priority groups, communication plan, next conversations.
 
-| Stakeholder | Role | Influence | Interest | Cares about | Risk | Communication plan |
-|---|---|---|---|---|---|---|
-
-### Priority groups
-
-- Manage closely
-- Keep satisfied
-- Keep informed
-- Monitor
-
-### Next conversations
-
-| Person | Purpose | Questions to ask | Desired outcome |
-|---|---|---|---|

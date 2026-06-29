@@ -1,32 +1,13 @@
 # /meeting
 
-Use this command after a meeting, sync, interview, project discussion, or onboarding conversation.
+Load `skills/meeting/SKILL.md`.
 
-## Goal
+Use after a meeting, sync, onboarding conversation, interview, stakeholder discussion, or project review.
 
-Turn meeting notes into decisions, actions, owners, deadlines, and follow-up messages.
+Always apply:
 
-## Output
+- `methodologies/personal-operating-system.md`
+- `methodologies/status-report.md`
 
-### Meeting summary
+Main output: summary, decisions, action items, open questions, follow-up message, note metadata.
 
-3 to 5 bullets.
-
-### Decisions
-
-| Decision | Owner | Impact |
-|---|---|---|
-
-### Action items
-
-| Task | Owner | Deadline | Deliverable | Dependency |
-|---|---|---|---|---|
-
-### Open questions
-
-| Question | Who can answer | Priority |
-|---|---|---|
-
-### Follow-up message
-
-Write a concise message to confirm actions and next steps.

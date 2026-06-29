@@ -1,33 +1,13 @@
 # /retro
 
-Use this command when the user needs a weekly review or self-review.
+Load `skills/retro/SKILL.md`.
 
-## Goal
+Use when the user needs a weekly review, self-review, probation review, internship reflection, or next-week plan.
 
-Help the user learn from work, show progress, and choose next priorities.
+Always apply:
 
-## Output
+- `methodologies/personal-operating-system.md`
+- `methodologies/first-90-days.md`
 
-### Weekly achievements
+Main output: evidence-based weekly review, lessons, misses, next top three, manager-facing summary.
 
-| Achievement | Evidence | Impact |
-|---|---|---|
-
-### Lessons learned
-
-| Lesson | Source | How to apply next week |
-|---|---|---|
-
-### Problems and misses
-
-| Problem | Cause | Correction |
-|---|---|---|
-
-### Next week's top three
-
-| Priority | Why it matters | First action |
-|---|---|---|
-
-### Manager-facing version
-
-Write a concise update suitable for a manager.

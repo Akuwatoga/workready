@@ -1,34 +1,13 @@
 # /status
 
-Use this command when the user needs to prepare a project status report.
+Load `skills/status/SKILL.md`.
 
-## Goal
+Use when the user needs to prepare a project status report, risk update, escalation, or steering-group note.
 
-Make progress, risks, blockers, decisions, and support needs visible.
+Always apply:
 
-## Output
+- `methodologies/status-report.md`
+- `methodologies/raci.md`
 
-### Status summary
+Main output: green/yellow/red status report, evidence, risks, blockers, decisions needed, recommendation.
 
-- Overall status: Green / Yellow / Red
-- One-line summary:
-
-### Progress
-
-| Completed | Evidence | Impact |
-|---|---|---|
-
-### Next actions
-
-| Action | Owner | Deadline | Output |
-|---|---|---|---|
-
-### Risks and blockers
-
-| Risk or blocker | Impact | Owner | Mitigation |
-|---|---|---|---|
-
-### Decisions needed
-
-| Decision | Decision owner | Deadline | Recommendation |
-|---|---|---|---|

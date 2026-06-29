@@ -1,38 +1,13 @@
 # /plan
 
-Use this command when a manager or teammate gives the user a vague assignment.
+Load `skills/plan/SKILL.md`.
 
-Examples:
+Use when the user receives a vague assignment such as "look into this", "research this", "organize the requirements", "improve the process", or "check the data".
 
-- look into this
-- research this
-- organize the requirements
-- improve the process
-- check whether the data has problems
+Always apply:
 
-## Goal
+- `methodologies/manager-alignment.md`
+- `methodologies/personal-operating-system.md`
 
-Turn ambiguity into a concrete work plan.
+Main output: task interpretation, assumptions, execution plan, risks, questions, manager confirmation message.
 
-## Output
-
-### Task interpretation
-
-- Original instruction:
-- Working interpretation:
-- Assumptions:
-- Out of scope:
-
-### Execution plan
-
-| Step | Action | Output | Owner | Deadline |
-|---|---|---|---|---|
-
-### Risks and dependencies
-
-| Risk or dependency | Impact | Mitigation |
-|---|---|---|
-
-### Confirmation message
-
-Write a short message that confirms the plan with the manager.

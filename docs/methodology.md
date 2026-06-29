@@ -1,33 +1,58 @@
-# Methodology
+# Methodology Overview
 
-WorkReady turns workplace methods into scenario commands.
+WorkReady is built from reusable workplace methods. Each slash command loads the method it needs and turns user notes into a concrete work artifact.
 
-## First 90 days
+## First 90 Days
 
-The first 90 days are split into three stages:
+Use this when the user is new to a role, team, company, internship, or project. The core loop is:
 
-1. Learn and map.
-2. Deliver and improve.
-3. Own and scale.
+1. Diagnose the role and organization.
+2. Align with the manager on success criteria.
+3. Accelerate learning through structured questions.
+4. Build credibility through small, visible wins.
+5. Create a repeatable operating cadence.
 
-## Manager alignment
+See [methodologies/first-90-days.md](../methodologies/first-90-days.md).
 
-A new employee should clarify:
+## Manager Alignment
 
-- success criteria
-- priority work
-- communication cadence
-- expected deliverables
-- current risks
+Use this when expectations, priorities, feedback cadence, or communication style are unclear. The user should leave with:
 
-## Ownership
+- a clear definition of success
+- top priorities
+- preferred update format
+- decision and escalation rules
+- questions to ask their manager
 
-Use RACI to clarify who does the work, who owns the outcome, who gives input, and who receives updates.
+See [methodologies/manager-alignment.md](../methodologies/manager-alignment.md).
 
-## Stakeholders
+## RACI
 
-Map stakeholders by influence, interest, concerns, and communication plan.
+Use this when responsibility, accountability, consultation, or information flow is unclear.
 
-## Status reporting
+See [methodologies/raci.md](../methodologies/raci.md).
 
-A useful status report shows progress, next actions, risks, blockers, decisions, and support needed.
+## Stakeholder Mapping
+
+Use this when the user needs to understand people around a project: influence, interest, concerns, risk, and communication plan.
+
+See [methodologies/stakeholder-mapping.md](../methodologies/stakeholder-mapping.md).
+
+## Status Reporting
+
+Use this when the user needs to make progress, risk, blockers, and decisions visible.
+
+See [methodologies/status-report.md](../methodologies/status-report.md).
+
+## Personal Operating System
+
+Use this when the user needs to manage tasks, meetings, notes, projects, and weekly reviews. It is inspired by structured notes workflows such as Obsidian Tasks and Dataview.
+
+See [methodologies/personal-operating-system.md](../methodologies/personal-operating-system.md).
+
+## Business/Data Map
+
+Use this when the user needs to understand a workflow, data source, report, dashboard, or automation opportunity.
+
+See [methodologies/business-data-map.md](../methodologies/business-data-map.md).
+

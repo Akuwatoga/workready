@@ -1,24 +1,13 @@
 # /datamap
 
-Use this command when the user needs to map business processes, data sources, reports, dashboards, or automation opportunities.
+Load `skills/datamap/SKILL.md`.
 
-## Goal
+Use when the user needs to map business processes, data sources, dashboards, reports, spreadsheets, or AI automation opportunities.
 
-Create a business and data map.
+Always apply:
 
-## Output
+- `methodologies/business-data-map.md`
+- `methodologies/personal-operating-system.md`
 
-### Business process map
+Main output: business process map, data source map, quality issues, report dependencies, AI opportunity backlog.
 
-| Scenario | Current workflow | Pain point | User group |
-|---|---|---|---|
-
-### Data source map
-
-| Source | Owner | Key fields | Access method | Issues |
-|---|---|---|---|---|
-
-### Automation opportunities
-
-| Scenario | Manual work | Possible automation | Required data | Value | Difficulty | Priority |
-|---|---|---|---|---|---|---|

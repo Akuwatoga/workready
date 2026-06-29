@@ -1,34 +1,12 @@
 # /tasks
 
-Use this command when the user needs a personal workplace operating system.
+Load `skills/tasks/SKILL.md`.
 
-## Goal
+Use when the user needs a personal workplace operating system for tasks, projects, meetings, decisions, and weekly reviews.
 
-Create a simple task board, daily log, decision log, and review loop.
+Always apply:
 
-## Output
+- `methodologies/personal-operating-system.md`
 
-### Task board
+Main output: task board, project list, daily log, decision log, review loop, note structure.
 
-| Task | Project | Priority | Status | Next action | Due date |
-|---|---|---|---|---|---|
-
-### Daily log
-
-- Today I completed:
-- Today I learned:
-- Current blockers:
-- People I need to follow up with:
-- Tomorrow's top three:
-
-### Decision log
-
-| Date | Decision | Context | Owner | Follow-up |
-|---|---|---|---|---|
-
-### Weekly review loop
-
-1. Review completed work.
-2. Review missed tasks.
-3. Review unresolved decisions.
-4. Choose next week's top three priorities.
